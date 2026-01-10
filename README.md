@@ -7,9 +7,9 @@ Takodje, vodi se računa o statistici - broj pronađenih, indeksiranih i presko�
 
 Sinhronizacija i kontrola niti:
 
-Poison pill – poseban File objekat koji signalizira consumer nitima da nema više fajlova.
+Poison pill - poseban File objekat koji signalizira consumer nitima da nema više fajlova.
 
-CountDownLatch – osigurava da se finalni ispis statistike i indeksa izvrši tek kada sve producer i consumer niti završe.
+CountDownLatch - osigurava da se finalni ispis statistike i indeksa izvrši tek kada sve producer i consumer niti završe.
 
-BlockingQueue – thread-safe red sa ograničenim kapacitetom, sprečava race condition pri dodavanju i preuzimanju fajlova.
+BlockingQueue - thread-safe red sa ograničenim kapacitetom, sprečava race condition pri dodavanju i preuzimanju fajlova.
 
