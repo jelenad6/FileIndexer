@@ -1,0 +1,6 @@
+fileindexer\FileData.class
+fileindexer\FileConsumer.class
+fileindexer\FileIndex.class
+fileindexer\FileProducer.class
+fileindexer\Statistics.class
+fileindexer\Main.class
