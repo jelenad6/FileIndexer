@@ -17,5 +17,6 @@ Korisnik sa tastature unosi zadati file path.
 
 Primer izlaza:
 
-<img width="560" height="64" alt="image" src="https://github.com/user-attachments/assets/b799cc72-78da-4c97-bba4-ad8fc0e88733" />
+<img width="551" height="42" alt="image" src="https://github.com/user-attachments/assets/0f9e96f9-245c-4fa6-a85f-a13117308758" />
+
 
