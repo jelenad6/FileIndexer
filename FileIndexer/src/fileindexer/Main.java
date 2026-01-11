@@ -55,12 +55,6 @@ public class Main {
             });
         }
 
-        // Statistika
-        ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
-        scheduler.scheduleAtFixedRate(() -> {
-            System.out.println("Statistika: " + stats + ", Queue size: " + queue.size());
-        }, 0, 1, TimeUnit.SECONDS);
-
         // Zatvaranje producer/consumer 
         producers.shutdown();
         consumers.shutdown();
@@ -68,11 +62,9 @@ public class Main {
         
         doneLatch.await();  
 
-       
-        scheduler.shutdown();
-
         
         System.out.println("Konacni indeks: " + index.size() + " datoteka");
         System.out.println("Konacna statistika: " + stats);
     }
 }
+
