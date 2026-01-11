@@ -13,3 +13,9 @@ CountDownLatch - osigurava da se finalni ispis statistike i indeksa izvrši tek 
 
 BlockingQueue - thread-safe red sa ograničenim kapacitetom, sprečava race condition pri dodavanju i preuzimanju fajlova.
 
+Korisnik sa tastature unosi zadati file path.
+
+Primer izlaza:
+
+<img width="560" height="64" alt="image" src="https://github.com/user-attachments/assets/b799cc72-78da-4c97-bba4-ad8fc0e88733" />
+
